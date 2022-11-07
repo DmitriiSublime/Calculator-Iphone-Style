@@ -10,3 +10,46 @@
     padding: 18px;
     box-shadow: 4px 4px 4px #4f4f4f;
 }
+
+
+/* .testText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.buttons {
+    display: grid;
+}
+
+.btn {    
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 100%;    
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.4em;
+    cursor: pointer;
+    user-select: none;
+    /* justify-content: center;
+    display: flex; */
+    
+}
+
+.btn:hover {
+    filter: brightness(140%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.bg-grey {
+    background: #a6a6a6;
+}
+
+.btn.bg-orange {
+    background: #ff9501;
+}
