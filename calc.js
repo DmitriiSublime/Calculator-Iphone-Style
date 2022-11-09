@@ -19,5 +19,9 @@ function clearAll() {
 document.querySelector('.ac').onclick = clearAll;
 
 document.querySelector('.buttons').onclick = (event) => {
+    // нажата не кнопка
+    if(!event.target.classList.contains('btn')) return;
+    //нажата кнопка клеар олл ac
+    if(event.tatget.clissList.contains('ac')) return;
 
 }
